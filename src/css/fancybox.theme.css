@@ -1,0 +1,44 @@
+.fb-modal {
+    max-width: 1024px;
+    background-color: var(--bs-body-bg);
+    box-shadow: 0 0 15px rgba(0,0,0,0.6);
+    border-radius: 8px;
+    overflow: hidden;
+}
+.fb-modal-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 15px 20px;
+    border-bottom: 1px solid var(--bs-gray-300);
+}
+.fb-modal-body{
+    padding: 20px;
+}
+.fb-modal-footer {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 15px 20px;
+    border-top: 1px solid var(--bs-gray-300);
+}
+.fancybox-modal .fancybox__backdrop{
+    background: rgba(0,0,0,0.4);
+}
+.fancybox-modal .fancybox__content{
+    background-color: transparent;
+    padding: 0;
+}
+.fancybox-modal .fancybox__content > .carousel__button.is-close{
+    top: 5px;
+    right: 5px;
+}
+.fancybox-modal .fancybox__content > .carousel__button.is-close svg{
+    stroke: #999999;
+    stroke-width: 0.8;
+    filter: drop-shadow(1px 1px 1px rgba(255,255,255,0.5));
+}
+.fancybox-modal .fancybox__content > .carousel__button.is-close:hover svg{
+    stroke: var(--bs-danger);
+}

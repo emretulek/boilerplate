@@ -1,0 +1,34 @@
+{
+  "name": "boilerplate",
+  "version": "1.0.0",
+  "description": "Frontent libraries and tools for quick start",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "gulp"
+  },
+  "keywords": [
+    "frontend",
+    "css",
+    "js",
+    "javascript",
+    "library",
+    "tool"
+  ],
+  "author": "mehmet emre tülek",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-uglify": "^3.0.2"
+  },
+  "dependencies": {
+    "@emretulek/jbvalidator": "^1.0.6",
+    "@fancyapps/ui": "^4.0.5",
+    "bootstrap": "^5.1.1",
+    "imask": "^6.2.2",
+    "jquery": "^3.6.0",
+    "sweetalert2": "^11.1.7"
+  }
+}
