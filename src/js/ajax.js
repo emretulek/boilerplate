@@ -84,7 +84,7 @@
                             $.swToast({
                                 icon: data.status,
                                 html: parseMessage(data.message),
-                                timer:  (data.data && data.data.delay) ? data.data.delay : options.locationDelay
+                                timer:  (data.data && data.data.delay !== undefined) ? data.data.delay : options.locationDelay
                             }).then(() => {
                                 //yönlendirme
                                 if (data.location != null) {
@@ -171,7 +171,7 @@
                         $.swToast({
                             icon: data.status,
                             html: parseMessage(data.message),
-                            timer:  (data.data && data.data.delay) ? data.data.delay : options.locationDelay
+                            timer:  (data.data && data.data.delay !== undefined) ? data.data.delay : options.locationDelay
                         }).then(() => {
                             //yönlendirme
                             if (data.location != null) {
